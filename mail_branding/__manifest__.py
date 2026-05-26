@@ -10,8 +10,9 @@
         "base",
         "mail",
     ],
+    "data": ["data/company_colors.xml"],
     "installable": True,
     "post_init_hook": "update_curqbot_name_in_res_users",
-    "uninstall_hook": "uninstall_curqbot_name_in_res_users",
+    "uninstall_hook": "uninstall_hook",
     "auto_install": True,
 }
